@@ -1,0 +1,76 @@
+.container {
+    background-color: hsl(0, 0%, 95%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 56ch;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.cards {
+    padding: 3rem 1rem 0 2.5rem;
+    line-height: 5ch;
+    Font-size: 15px;
+}
+
+#card-1 {
+    background-color: hsl(31, 77%, 52%);
+    
+}
+
+#card-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card-3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    width: 7.5rem;
+    margin-top: 2.5rem;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    margin-top: 3rem;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+
+#button-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+#button-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+#buttom-3 {
+    color: hsl(179, 100%, 13%);;
+} 
+
+#button-1:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid white;
+    color: white;
+}
+
+#button-2:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid white;
+    color: white;
+}
+
+#button-3:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid white;
+    color: white;
+}
